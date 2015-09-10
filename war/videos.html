@@ -1,0 +1,119 @@
+
+<html>
+
+<head>
+<title>Sample Player Module</title>
+<script src="http://code.jquery.com/jquery-1.10.1.js"></script>
+<script src="http://underscorejs.org/underscore.js"></script>
+<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+<link href='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/
+jquery-ui.css' rel='stylesheet' type='text/css'>
+
+
+
+    <!-- Load Ooyala Player -->
+    <script src='http://player.ooyala.com/v3/e18ab1da1813483499554ea2d8e67fbd'></script>
+
+</head>
+
+<body>
+
+
+    <script>
+      // Surround everything with OO.ready to make sure the script has
+      // loaded and initialized.        
+      OO.ready(function() {
+        window.player = OO.Player.create(
+          'playerwrapper',
+          'hha3QzdjrwRq-ru3hzhjErKU05DjDD7Z', {
+            // add the embedded player parameters here
+            autoplay: true 
+          }
+        );
+      });
+    </script>
+
+
+
+
+<h3>VIDEO THAT WAS ENCODED CORRECTLY</h3>
+<script src="http://player.ooyala.com/player.js
+?width=640
+&height=480
+&embedCode=13cmVzaDo1J4vCE3mnd7RroIqsCcKis7">
+</script>
+<h3>VIDEO FROM OUR SITE SAME PLAYER</h3>
+<script src="http://player.ooyala.com/player.js
+?width=640
+&height=480
+&embedCode=hha3QzdjrwRq-ru3hzhjErKU05DjDD7Z">
+</script>
+
+<h3>V3 PLAYER TRYING TO PLAY OUR VIDEO-1</h3>
+
+
+           <div id='playerwrapper' style='width:480px;height:360px;'>
+        </div>
+  <script src='http://player.ooyala.com/v3/dcb79e2098c94889a1b9f2af6280b45d'>
+       //    var videoPlayer = OO.Player.create('playerwrapper', '13cmVzaDo1J4vCE3mnd7RroIqsCcKis7', 
+  
+         var videoPlayer = OO.Player.create('playerwrapper', 'hha3QzdjrwRq-ru3hzhjErKU05DjDD7Z', 
+         {
+        // additional params go here
+    });
+
+    videoPlayer.play();
+    
+  
+  
+  
+  </script>
+  <br>
+  
+           <div id='playerwrapper' style='width:480px;height:360px;'>
+        </div>
+  <script src='http://player.ooyala.com/v3/dcb79e2098c94889a1b9f2af6280b45d'>
+       //    var videoPlayer = OO.Player.create('playerwrapper', '13cmVzaDo1J4vCE3mnd7RroIqsCcKis7', 
+  
+         var videoPlayer = OO.Player.create('playerwrapper', 'hha3QzdjrwRq-ru3hzhjErKU05DjDD7Z', 
+         {
+        // additional params go here
+    });
+
+    videoPlayer.play();
+    
+  
+  
+  
+  </script>
+
+  <h3>THIS IS HOW WE EMBED THE VIDEOS ON PWS-1</h3>>
+ <embed src="http://player.ooyala.com/player.swf?embedCode=hha3QzdjrwRq-ru3hzhjErKU05DjDD7Z&version=3"
+                    bgcolor="#000000" width="320" height="240" name="ooyalaPlayer_9453y_glcqd4w2"
+                    align="middle" play="true" loop="false" allowscriptaccess="always" allowfullscreen="true"
+                    type="application/x-shockwave-flash" flashvars="&embedCode=hha3QzdjrwRq-ru3hzhjErKU05DjDD7Z" pluginspage="http://www.adobe.com/go/getflashplayer">
+        </embed>
+          <h3>THIS IS HOW WE EMBED THE VIDEOS ON PWS-2</h3>>
+        
+         <embed src="http://player.ooyala.com/player.swf?embedCode=13cmVzaDo1J4vCE3mnd7RroIqsCcKis7&version=3"
+                    bgcolor="#000000" width="320" height="240" name="ooyalaPlayer_9453y_glcqd4w2"
+                    align="middle" play="true" loop="false" allowscriptaccess="always" allowfullscreen="true"
+                    type="application/x-shockwave-flash" flashvars="&embedCode=13cmVzaDo1J4vCE3mnd7RroIqsCcKis7" pluginspage="http://www.adobe.com/go/getflashplayer">
+        </embed>
+        
+        
+        
+      
+  <h3>JUST SCRIPTS</h3>>
+
+
+
+
+        
+
+
+
+</body>
+</html>
+
+

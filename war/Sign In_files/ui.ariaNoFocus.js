@@ -1,0 +1,1 @@
+define(["jquery","jqueryui"],function(a){a.fn.extend(a.ui.tabs.prototype,{_ariaSet:function(b,c){var d=c?0:-1,e=a(this.anchors[b]);e.attr("tabindex",d).attr("aria-selected",c),c||e.closest("li").removeClass("ui-state-focus"),a(this.panels[b]).attr("aria-hidden",!c).attr("aria-expanded",c),c&&this._updateVirtualBuffer()}})})

@@ -1,0 +1,2 @@
+serviceClass: com.stepan.mysite.client.GreetingService
+path: 267F77B105035E93BE4E7428CBD025C7.gwt.rpc

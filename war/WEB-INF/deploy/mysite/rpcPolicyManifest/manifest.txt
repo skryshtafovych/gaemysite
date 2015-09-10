@@ -1,0 +1,3 @@
+# Module mysite
+# RPC service class, partial path of RPC policy file
+com.stepan.mysite.client.GreetingService, 267F77B105035E93BE4E7428CBD025C7.gwt.rpc
